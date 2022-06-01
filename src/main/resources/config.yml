@@ -1,0 +1,57 @@
+radious-cmd-creditcard: 5 #in blocks
+payment-rate-tick: 1728000
+confirm-cancelled-tickage: 1200
+card-types:
+  diamond:
+    gui-material: DIAMOND
+    max-credit: -1
+    max-withdraw: 20000
+    max-payment: 5000
+    max-deposit: 15000
+    cost: 1000
+  emerald:
+    gui-material: EMERALD
+    max-credit: -1
+    max-withdraw: 35000
+    max-payment: 10000
+    max-deposit: 15000
+    cost: 10000
+  carbon:
+    gui-material: COAL
+    max-credit: 10000
+    max-withdraw: 5000
+    max-payment: 100
+    max-deposit: 15000
+    cost: 100
+balance-item:
+  options:
+    material: DIAMOND
+    lore: '&7Bilancio: %cardbalance%'
+    name: '&cBilancio di %cardholder%'
+creditcard:
+  options:
+    material: STICK
+    lore: '&cThis is a CREDITCARD!'
+    name: '&cCredit card'
+atm:
+  options:
+    material: LAPIS_BLOCK
+    lore: '&cThat''s an ATM!'
+    name: '&cATM'
+pin-book:
+  title: "&cCreditCard's PIN"
+  author: "MazeBank Corp."
+  text: "\n\n\n\n\n     ★ MazeBank ★\n      &0&LPIN &6&l» &0%pin%\n\n\n\n\n\n&o- Don't miss it!"
+inventories:
+  close-item-name: "&cClose"
+  close-item-lore: "&7Click here to close."
+  go-next-page: "&aGo to next page (%nextpage%)"
+  go-prev-page: "&cGo previous page (%prevpage%)"
+  atm:
+    title: ATM
+  banknotes-show:
+    title: Banknotes
+  cardtype-show:
+    title: Card Types
+  cardtype-selector:
+    title: Card Type Selector

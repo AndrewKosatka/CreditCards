@@ -1,0 +1,43 @@
+
+#That's how to create a banknote!
+#BanknoteName:
+  #material: PAPER
+  #lore: '&7Signed by Drago903'
+  #name: '&cBanknote of 10€'
+  #value: 10
+banknotes:
+  5:
+    material: PAPER
+    lore: '&7Signed by Drago903'
+    name: '&c5€'
+    value: 5
+  10:
+    material: PAPER
+    lore: '&7Signed by Drago903'
+    name: '&c10€'
+    value: 10
+  20:
+    material: PAPER
+    lore: '&7Signed by Drago903'
+    name: '&c20€'
+    value: 20
+  50:
+    material: PAPER
+    lore: '&7Signed by Drago903'
+    name: '&c50€'
+    value: 50
+  100:
+    material: PAPER
+    lore: '&7Signed by Drago903'
+    name: '&c100€'
+    value: 100
+  200:
+    material: PAPER
+    lore: '&7Signed by Drago903'
+    name: '&c200€'
+    value: 200
+  500:
+    material: PAPER
+    lore: '&7Signed by Drago903'
+    name: '&c500€'
+    value: 500

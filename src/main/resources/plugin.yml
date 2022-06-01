@@ -1,0 +1,18 @@
+name: CreditCards
+version: '${project.version}'
+main: it.myke.CreditCards.Plugin
+api-version: 1.16
+prefix: CreditCards
+authors: [ Drago903 ]
+description: A creditcard plug-in
+softdepend: [Vault, Essentials, PlaceholderAPI]
+commands:
+  creditcard:
+    description: "CreditCards command."
+  atm:
+    description: "ATM command."
+  banknotes:
+    description: "Banknotes Command"
+    aliases:
+      - withdraw
+      - banknote
