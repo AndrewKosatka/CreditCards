@@ -38,7 +38,7 @@
                         <relocation>
                             <pattern>com.cryptomorin.xseries</pattern>
                             <!-- Be sure to change the package below -->
-                            <shadedPattern>it.myke.creditcards</shadedPattern>
+                            <shadedPattern>it.myke.CreditCards</shadedPattern>
                         </relocation>
 
                     </relocations>
